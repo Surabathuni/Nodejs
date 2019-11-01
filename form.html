@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title></title>
+</head>
+<body>
+        <script src="socket.io/socket.io.js"></script>
+        <script >
+                var socket=io();
+                socket.on('message',function(data){
+                        document.write(data)
+                })
+        </script>
+        <h1>Working<h1>
+</body>
+</html>
